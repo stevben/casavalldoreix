@@ -34,8 +34,16 @@ Link to instructions : https://hacs.xyz/docs/setup/download/
 3. Execute 'wget -O - https://get.hacs.xyz | bash -'
 4. Restart
 
-## Install Huawey Solar
+## Install & Configure Huawey Solar
 1. In HACS, search for Huwaey Solar
 2. Install
 3. Restart HA
-4. ...
+4. Go to Devices & Services
+5. Add Huawey Solar
+6. Select Network
+7. IP : 192.168.1.61
+8. Port : 502
+9. Slave ID
+10. Submit
+
+## Install & Configure Tesla
