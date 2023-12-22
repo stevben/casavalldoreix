@@ -27,9 +27,15 @@ In Parameters > Add-on, install
 1. File Editor
 2. Terminal & SSH
 
-### Install HACS
+## Install HACS
 Link to instructions : https://hacs.xyz/docs/setup/download/
 1. Go to Terminal & SSH add-on
 2. Open termin
 3. Execute 'wget -O - https://get.hacs.xyz | bash -'
 4. Restart
+
+## Install Huawey Solar
+1. In HACS, search for Huwaey Solar
+2. Install
+3. Restart HA
+4. ...
