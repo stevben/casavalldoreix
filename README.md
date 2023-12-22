@@ -2,8 +2,8 @@
 
 ## Download Home Assistant
 
-1. Image should be aarch64 & qcow2 format
-2. Unzip the Image
+1. Image should be aarch64 & qcow2 format (haos_generic-aarch64-VERSION.qcow2)
+2. Extract the Image
 
 ## Create the Virtual Machine
 
@@ -19,5 +19,17 @@
 11. Go to the disk create, resize it to minimum 32
 12. Start the machine
 
-###
+## Advanced mode
+1. In User Profile, enable 'Advanced Mode'
 
+## Install Add-ons
+In Parameters > Add-on, install
+1. File Editor
+2. Terminal & SSH
+
+### Install HACS
+Link to instructions : https://hacs.xyz/docs/setup/download/
+1. Go to Terminal & SSH add-on
+2. Open termin
+3. Execute 'wget -O - https://get.hacs.xyz | bash -'
+4. Restart
