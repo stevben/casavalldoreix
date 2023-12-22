@@ -47,3 +47,12 @@ Link to instructions : https://hacs.xyz/docs/setup/download/
 10. Submit
 
 ## Install & Configure Tesla
+1. Go to HACS
+2. Search for Tesla
+3. Dowland
+4. Restart
+5. Go to Devices & Services
+6. Install Tesla
+7. Specify Login & Token
+8. Submit
+Note : get token from https://chromewebstore.google.com/detail/access-token-generator-fo/
