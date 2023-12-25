@@ -94,4 +94,10 @@ Note : get token from https://chromewebstore.google.com/detail/access-token-gene
             watt_threshold: 1000
             transparency_zero_lines: 0
 ```
+
+# Add Reolink Camera
+1. Add simply a Reolink Camera using IP, 'admin' as user and "SHR**29*" as pwd
+2. IP Portail : 192.168.1.143
+
+3. 
      
