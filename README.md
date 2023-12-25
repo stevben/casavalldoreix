@@ -56,3 +56,42 @@ Link to instructions : https://hacs.xyz/docs/setup/download/
 7. Specify Login & Token
 8. Submit
 Note : get token from https://chromewebstore.google.com/detail/access-token-generator-fo/
+
+
+# Install Live Energy Flow
+1. Install Power Flow Card Plus (https://github.com/flixlix/power-flow-card-plus) via HACS
+2. Configuration YAML (also available through the UI)
+3. Create the Flow Card 
+```       - type: custom:power-flow-card-plus
+            entities:
+              grid:
+                entity: sensor.power_meter_active_power
+                invert_state: true
+                color_value: true
+              solar:
+                entity: sensor.inverter_active_power
+                display_zero_state: true
+                color_icon: false
+                color_value: false
+              home: {}
+              individual1:
+                entity: sensor.charger_power
+            clickable_entities: true
+            display_zero_lines:
+              mode: show
+              transparency: 50
+              grey_color:
+                - 189
+                - 189
+                - 189
+            use_new_flow_rate_model: true
+            w_decimals: 0
+            kw_decimals: 1
+            min_flow_rate: 0.75
+            max_flow_rate: 6
+            max_expected_power: 2000
+            min_expected_power: 0.01
+            watt_threshold: 1000
+            transparency_zero_lines: 0
+```
+     
